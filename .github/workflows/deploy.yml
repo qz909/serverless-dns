@@ -30,7 +30,7 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "qz909-serverless-15"
-          entrypoint: "src/server-deno"
+          entrypoint: "src/server-deno.ts"
           root: ""
           
           
